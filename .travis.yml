@@ -1,7 +1,7 @@
 language: python
 
 install:
-  - pip install yamllint
+  - pip install -r requirements.txt
 
 script:
   - yamllint .
