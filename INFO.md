@@ -9,7 +9,33 @@
 
 ## Screenshots
 
-![Template Theme](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/template-overview.png)
+### Overview
+
+![Theme - Overview](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-overview.png)
+
+### Map
+
+![Theme - Map](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-map.png)
+
+### Logbook
+
+![Theme - Logbook](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-logbook.png)
+
+### History
+
+![Theme - History](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-history.png)
+
+### Developers Tools
+
+![Theme - Developers Tools](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-developers-tools.png)
+
+### Configuration
+
+![Theme - Configuration](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-configuration.png)
+
+### Profile
+
+![Theme - Profile](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-profile.png)
 
 ## Installation
 
