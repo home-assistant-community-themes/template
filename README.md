@@ -25,9 +25,9 @@
 
 ![Theme - History](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-history.png)
 
-### Developers Tools
+### Developer Tools
 
-![Theme - Developers Tools](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-developers-tools.png)
+![Theme - Developer Tools](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-developer-tools.png)
 
 ### Configuration
 
