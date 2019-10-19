@@ -54,7 +54,7 @@ frontend:
 2. Search for `Template`.
 3. Navigate to `Template` theme.
 4. Press `Install`.
-5. Restart Home Assistant to make it show up.
+6. Go to services and trigger the `frontend.reload_themes` service.
 
 ### Manual
 
