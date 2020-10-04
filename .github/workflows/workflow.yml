@@ -1,11 +1,21 @@
 ---
+name: yamllint test
+
 on: [push, pull_request]
+
 jobs:
-  lint:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: python3 -m pip install --upgrade pip
-      - run: python3 -m pip install -r requirements.txt
-      - run: ls -al
-      - run: yamllint .
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install yamllint
+        run: pip install yamllint
+
+      - name: Lint YAML files
+        run: yamllint .
