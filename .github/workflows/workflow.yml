@@ -17,5 +17,8 @@ jobs:
       - name: Install yamllint
         run: pip install yamllint
 
+      - name: Files
+        run: ls -al
+
       - name: Lint YAML files
         run: yamllint .
