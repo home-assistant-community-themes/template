@@ -1,24 +1,14 @@
----
-name: yamllint test
+name: Yaml Lint
 
 on: [push, pull_request]
 
 jobs:
-  test:
+  lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
-
-      - name: Install yamllint
-        run: pip install yamllint
-
-      - name: Files
-        run: ls -al
-
-      - name: Lint YAML files
-        run: yamllint .
+    - uses: actions/checkout@v1
+    - name: yaml-lint
+      uses: ibiqlik/action-yamllint@v3
+      with:
+        file_or_dir: themes/*.yaml
+        config_file: .yamllint
