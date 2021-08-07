@@ -10,5 +10,5 @@ jobs:
     - name: yaml-lint
       uses: ibiqlik/action-yamllint@v3
       with:
-        file_or_dir: themes/*.yaml
+        file_or_dir: themes/template.yaml
         config_file: .yamllint
