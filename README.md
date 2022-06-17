@@ -1,7 +1,7 @@
 # Template Theme
 
 [![Build Status](https://github.com/home-assistant-community-themes/template/workflows/.github/workflows/workflow.yml/badge.svg)](https://github.com/home-assistant-community-themes/template/actions)
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/hacs/integration)
 
 <a href="https://www.buymeacoffee.com/maartenpaauw" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
